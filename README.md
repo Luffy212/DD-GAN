@@ -40,4 +40,5 @@ If you find the code useful, please consider citing:
 ### Acknowledgement
 
 Our word embedding model is from [GloVe](https://github.com/stanfordnlp/GloVe)
+
 Our evaluation code is from [Deep Correlated Holistic Metric Learning for Sketch-based 3D Shape Retrieval](https://github.com/csjinxie/Sketch-based-3D-shape-retrieval)
