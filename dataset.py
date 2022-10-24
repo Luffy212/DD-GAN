@@ -96,7 +96,7 @@ class Res_13Shapefea_ZS(data.Dataset):
             self.label[self.cls_[i]] = 79 + i
 
     def __getitem__(self,index):
-        word_vec_path = './datasets/dataset/word_embedding_vector/'
+        word_vec_path = './datasets/word_embedding_vector/'
         fn = self.new_train_path[index]
         fn2 = self.new_train_path2[index]
         img_oral = txt_load(fn)
