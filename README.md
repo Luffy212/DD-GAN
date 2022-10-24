@@ -13,13 +13,13 @@ by  Rui Xu, Zongyan Han, Le Hui, Jianjun Qian, and Jin Xie.
 2. Train:
 
    ```
-   CUDA_VISIBLE_DEVICES=0 python main.py --network DD_GAN_V1 --model_dir DD_GAN_V1  --batch_size 256 --max_epoch 300  --snapshot 50 --phase train
+   CUDA_VISIBLE_DEVICES=0 python main.py --network DD_GAN --model_dir DD_GAN  --batch_size 256 --max_epoch 300  --snapshot 50 --phase train
    ```
 
 3. Test:
 
    ```
-   CUDA_VISIBLE_DEVICES=0 python main.py --network DD_GAN_V1 --model_dir DD_GAN_V1  --batch_size 20  --pretrain_model best_full_P.pth --phase test
+   CUDA_VISIBLE_DEVICES=0 python main.py --network DD_GAN --model_dir DD_GAN  --batch_size 20  --pretrain_model best_full_P.pth --phase test
    ```
 
 
