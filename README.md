@@ -38,6 +38,7 @@ If you find the code useful, please consider citing:
 ```
 
 ### Acknowledgement
+Our preprocessing [dataset](https://drive.google.com/drive/folders/1BCWwOWg0sVA4yuzj2A0hyOZlyBLZaNh6)
 
 Our word embedding model is from [GloVe](https://github.com/stanfordnlp/GloVe)
 
